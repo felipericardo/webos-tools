@@ -24,3 +24,7 @@ ssh -f -N -L 19998:127.0.0.1:9998 root@<tv-host>
 - `luna-send` prints nothing when run directly in an SSH session; run it detached
   (`nohup ... < /dev/null &`) and read its output file. The scripts here already do.
 - Keep files from the TV's firmware out of every repo; they are LG's proprietary files.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
